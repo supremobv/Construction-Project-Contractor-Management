@@ -1,0 +1,14 @@
+/app/.env
+/app/.env.*
+!/app/.env.example
+/app/vendor/
+/app/node_modules/
+/app/storage/**/*.log
+/app/storage/app/private/**
+/app/storage/app/public/**
+!/app/storage/app/private/.gitignore
+!/app/storage/app/public/.gitignore
+/app/database/*.sqlite*
+/app/.phpunit.result.cache
+/artifacts/
+/backups/
